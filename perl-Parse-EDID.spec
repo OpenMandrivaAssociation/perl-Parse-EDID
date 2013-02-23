@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Parse/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	perl-devel
 
 %description
 This module provides some function to parse Extended Display Identification
