@@ -3,7 +3,7 @@
 
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
-Release:	1
+Release:	2
 
 Summary:	Extended display identification data (EDID) parser
 License:	GPL+ or Artistic
