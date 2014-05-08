@@ -1,10 +1,10 @@
 %define	modname	Parse-EDID
-%define	modver	1.0.4
+%define	modver	1.0.6
 
 Summary:	Extended display identification data (EDID) parser
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
-Release:	6
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -33,4 +33,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README META.yml META.json Changes
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
-
