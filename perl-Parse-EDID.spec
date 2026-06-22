@@ -18,7 +18,7 @@ This module provides some function to parse Extended Display Identification
 Data binary data structures.
 
 %prep
-%autosetup -n %{modname}-%{version} -[1
+%autosetup -n %{modname}-%{version} -p1
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
