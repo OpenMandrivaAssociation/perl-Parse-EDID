@@ -11,6 +11,7 @@ Source0:	http://www.cpan.org/modules/by-module/Parse/%{modname}-%{version}.tar.g
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
+BuildRequires:  perl(Test::Warn)
 BuildRequires:	perl-devel
 
 %description
